@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- simple calculator -->
+    <div class="calculator">
+        <div class="name">Calculator</div>
+        <div class="show">
+            <div class="input-val"></div>
+            <div class="output-val"></div>
+        </div>
+        <div class="cal-inputs">
+            <div>
+                <button class="btn special-btn" id="clear" >AC</button>
+                <button class="btn special-btn" id="back"><i class="fa-solid fa-delete-left"></i></button>
+                <button class="btn val-for-cal" id="%">%</button>
+                <button class="btn val-for-cal" id="/"><i class="fa-solid fa-divide"></i></button>
+            </div>
+            <div>
+                <button class="btn val-for-cal" id="7">7</button>
+                <button class="btn val-for-cal" id="8">8</button>
+                <button class="btn val-for-cal" id="9">9</button>
+                <button class="btn val-for-cal" id="*"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div>
+                <button class="btn val-for-cal" id="4">4</button>
+                <button class="btn val-for-cal" id="5">5</button>
+                <button class="btn val-for-cal" id="6">6</button>
+                <button class="btn val-for-cal" id="-">-</button>
+            </div>       
+            <div>
+                <button class="btn val-for-cal" id="1">1</button>
+                <button class="btn val-for-cal" id="2">2</button>
+                <button class="btn val-for-cal" id="3">3</button>
+                <button class="btn val-for-cal" id="+">+</button>
+            </div>
+            <div>
+                <button class="btn val-for-cal" id="0">0</button>
+                <button class="btn val-for-cal" id="00">00</button>
+                <button class="btn val-for-cal" id=".">.</button>
+                <button class="btn special-btn" id="equal">=</button>
+            </div>
+        </div>
+     </div>
+     <script src="index.js"></script>
+</body>
+</html>
